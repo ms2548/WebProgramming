@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function doit(){
+            let prom = prompt('텍스트 또는 html 코드를 입력하세요','');
+            let p = document.getElementById("p")
+            p.innerHTML = prom;
+        }
+    </script>
+</head>
+<body> 
+    <h2>innerHTML</h2>
+    <hr>
+    <p id="p" onclick="doit()"> 이번 여름에는 어디로 여행을 갈까요 </p>
+
+    
+</body>
+</html>
