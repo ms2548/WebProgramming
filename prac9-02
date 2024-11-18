@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prac9-2</title>
+    <script>
+        function imgchange(o) {
+            let newimg = document.getElementById("newimg");
+            if(newimg != null) {
+                newimg.parentElement.removeChild("newimg");
+            }
+
+            
+            let image = new Image();
+            image.src = o.value; 
+            let parent = document.getElementById("parent");
+            image.setAttribute('id','newimg');
+            parent.appendChild(image);
+        }
+    </script>
+</head>
+<body>
+    <h2>라디오 버튼을 클릭하면 이미지를 출력합니다.</h2>
+    <hr>
+    <form id="parent">
+        <input type="radio" name="fruit" value="media/banana.jfif" onclick="imgchange(this)"> 바나나
+        <input type="radio" name="fruit" value="media/mango.jfif" onclick="imgchange(this)"> 망고
+        <input type="radio" name="fruit" value="media/apple.jfif" onclick="imgchange(this)" checked> 사과
+    </form>
+    <img id="image" src="media/apple.jfif" alt="" >
+</body>
+</html>
