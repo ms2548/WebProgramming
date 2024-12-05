@@ -28,11 +28,29 @@
 7. Week 7 연습
 - prac10-5.html: 실습문제 10-5와 10-6을 포함 (SetTimeout, SetInterval 이용 시계 보이기)
 
+8. week9
+- prac01.html
+- prac02-1.html
+- prac02-2.html
+- ex12-1.html
 
-8.
-9.
-10.
+9. week10
+- ex13-10.html: 13-10 ( 타이머를 가진 웹 워커 만들기 )
+- ex13-9.html: 13-9 ( 시작과 끝 숫자를 전달받아 합을 구하는 워커 태스크 )
+- ex13-6.html: 13-6 (곱셈하기, 워커 태스크 만들기 )
+- Multiple.js : 곱하기 계산하기
 
-11.
-12.
-13.
+10. week11 고급 자바스크립트 1
+- funcPr-practice.js: 데이터 타입 배열 이용
+- 
+11.week12 고급 자바 스크립트 2
+  
+12.week13 java server
+- webserver1.js: 1000번 포트로 서버 실행하기
+- webserver2.js: 3000번 포트로 서버 실행하기
+- 
+13.week14 express
+-app1.js: 3000포트로 welcome 출력하기
+-app4.js: 3000포트와 뒤에 주소를  /login 추가하여 welcome 출력하기
+-app7.js: http 서버 구현
+
